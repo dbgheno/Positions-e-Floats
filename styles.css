@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;
+    height: 4vh;
+}
+
+a:visited {
+    color: rgb(223, 160, 252)
+}
+
+main {
+    height: 96vh;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Exercício 1 */
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.azul {
+    background-color: blue;
+    height: 96vh;
+    width: 100vw;
+    margin: 0 auto;
+    top: 0;
+}
+
+.vermelha {
+    background-color: red;
+    height: 81vh;
+    width: 85vw;
+    margin: 0 auto;
+    top: 7.5%;
+}
+
+.preta {
+    background-color: black;
+    height: 61vh;
+    width: 65vw;
+    margin: 0 auto;
+    top: 12.5%;
+}
+
+.verde {
+    background-color: green;
+    height: 41vh;
+    width: 45vw;
+    margin: 0 auto;
+    top: 17.5%
+}
+
+.amarela {
+    background-color: yellow;
+    height: 26vh;
+    width: 30vw;
+    margin: 0 auto;
+    top: 15%
+}
+
+
+/* Exercício 2 */
+
+.darkgrey {
+    background-color: rgb(51, 51, 51);
+    height: 35vh;
+    width: 20vw;
+    margin: 0 0 30vh;
+}
+
+.topleft {
+    float: left;
+}
+
+.topright {
+    float: right;
+}
+
+.bottomleft {
+    float: left;
+    clear: both;
+}
+
+.bottomright {
+    float: right;
+}
+
+
+/* Exercício 3 */
+.margin3 {
+    margin: 50px;
+}
+
+.round {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: right;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.redborder {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    overflow-y: auto;
+    text-align: left;
+    height: 150px;
+    padding: 20px;
+}
+
+
+/* Exercício 4 */
+
+.doze {
+    background-color: rgb(26, 8, 8);
+    height: 18vh;
+    width: 10vw;
+    margin: 2px;
+    display: inline-block;
+}
+
+.seis1 {float: left;}
+.d4{clear: both;}
+.d6{clear: both;}
+
+.seis2{float:right;}
+.d8{clear: both;}
+.d10{clear: both;}
