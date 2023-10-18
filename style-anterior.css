@@ -30,7 +30,7 @@ main {
 
 
 /* Exercício 1 */
-.inline {
+.divs-do-1 {
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -79,7 +79,7 @@ main {
 
 /* Exercício 2 */
 
-.darkgrey {
+.floatsquares {
     background-color: rgb(51, 51, 51);
     height: 35vh;
     width: 20vw;
@@ -105,11 +105,11 @@ main {
 
 
 /* Exercício 3 */
-.margin3 {
+.textbox {
     margin: 50px;
 }
 
-.round {
+.roundborder {
     background-color: black;
     color: white;
     border-radius: 20px;
@@ -131,7 +131,7 @@ main {
 
 /* Exercício 4 */
 
-.doze {
+.doze-divs {
     background-color: rgb(26, 8, 8);
     height: 18vh;
     width: 10vw;
@@ -139,10 +139,10 @@ main {
     display: inline-block;
 }
 
-.seis1 {float: left;}
-.d4{clear: both;}
-.d6{clear: both;}
+.seis-primeiras {float: left;}
+.div4{clear: both;}
+.div6{clear: both;}
 
-.seis2{float:right;}
-.d8{clear: both;}
-.d10{clear: both;}
+.seis-ultimas{float:right;}
+.div8{clear: both;}
+.div10{clear: both;}

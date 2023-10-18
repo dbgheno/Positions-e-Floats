@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2rem;
+    padding: 4px;
+    height: 4vh;
+}
+
+a:visited {color: rgb(223, 160, 252)}
+
+
+/* EXERCÍCIO 1 */
+
+.divs-do-1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    aspect-ratio: 1/1;
+    height: 75%;
+}
+
+.azul {background-color: blue;}
+.vermelha {background-color: red;}
+.preta {background-color: black;}
+.verde {background-color: green;}
+.amarela {background-color: yellow;}
+
+
+/* EXERCÍCIO 2 */
+
+.floatsquares {
+    background-color: rgb(51, 51, 51);
+    height: 35vh;
+    width: 20vw;
+    margin: 0 0 26vh;
+}
+
+.topleft {float: left;}
+.topright {float: right;}
+.bottomleft {float: left;  clear: both;}
+.bottomright {float: right;}
+
+
+/* EXERCÍCIO 3 */
+
+.textbox {margin: 50px;}
+
+.roundborder {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: right;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.redborder {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    overflow-y: auto;
+    text-align: left;
+    height: 150px;
+    padding: 20px;
+}
+
+
+/* EXERCÍCIO 4 */
+
+.doze-divs {
+    background-color: rgb(26, 8, 8);
+    height: 18vh;
+    aspect-ratio: 1/1;
+    margin: 0.1rem;
+    display: inline-block;
+}
+
+.seis-primeiras {float: left;}
+.div4{clear: both;}
+.div6{clear: both;}
+
+.seis-ultimas{float:right;}
+.div8{clear: both;}
+.div10{clear: both;}
