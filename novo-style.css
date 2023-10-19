@@ -4,21 +4,23 @@
     padding: 0px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    overflow: hidden;
+    font-size: 1.25rem;
 }
 
 header {
     background-color: black;
     color: white;
-    font-weight: bold;
     text-align: center;
     word-spacing: 2rem;
     padding: 4px;
-    height: 4vh;
+    height: 3vh;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
 }
 
-a:visited {color: rgb(223, 160, 252)}
+a:visited {color: rgb(194, 193, 164)}
+a{color: inherit;}
 
 
 /* EXERCÍCIO 1 */
@@ -45,7 +47,7 @@ a:visited {color: rgb(223, 160, 252)}
     background-color: rgb(51, 51, 51);
     height: 35vh;
     width: 20vw;
-    margin: 0 0 26vh;
+    margin: 0 0 35vh;
 }
 
 .topleft {float: left;}
