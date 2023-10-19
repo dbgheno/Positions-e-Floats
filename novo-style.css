@@ -14,8 +14,8 @@ header {
     word-spacing: 2rem;
     padding: 4px;
     height: 3vh;
-    width: 100%;
-    position: fixed;
+    width: 99.6%;
+    position: sticky;
     overflow: hidden;
 }
 
@@ -45,9 +45,9 @@ a{color: inherit;}
 
 .floatsquares {
     background-color: rgb(51, 51, 51);
-    height: 35vh;
-    width: 20vw;
-    margin: 0 0 35vh;
+    height: 34vh;
+    aspect-ratio: 1/1;
+    margin: 0 0 27vh;
 }
 
 .topleft {float: left;}
@@ -84,9 +84,9 @@ a{color: inherit;}
 
 .doze-divs {
     background-color: rgb(26, 8, 8);
-    height: 18vh;
+    height: 18.1vh;
     aspect-ratio: 1/1;
-    margin: 0.1rem;
+    margin: 0.15rem;
     display: inline-block;
 }
 
